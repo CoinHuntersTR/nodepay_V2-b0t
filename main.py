@@ -16,7 +16,7 @@
        print("| |__| (_) | | | | | |  _  | |_| | | | | ||  __/ |  \__ \ ")
        print(" \____\___/|_|_| |_| |_| |_|\__,_|_| |_|\__\___|_|  |___/ ")
        print("\033[0m")
-       answer = input('Will you NODEPAY Airdrop? (Y/N): ')
+       answer = input('Will you F** NODEPAY Airdrop? (Y/N): ')
        if answer.lower() != 'y':
            print('Aborting installation.')
            exit(1)
