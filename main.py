@@ -9,17 +9,17 @@ from loguru import logger
 
 # Introduction and user confirmation
 def print_intro():
-   print("\033[0;31m")
-   print("  ____      _         _   _             _                 ")  
-   print(" / ___|___ (_)_ __   | | | |_   _ _ __ | |_ ___ _ __ ___  ")
-   print("| |   / _ \| | '_ \  | |_| | | | | '_ \| __/ _ \ '__/ __| ") 
-   print("| |__| (_) | | | | | |  _  | |_| | | | | ||  __/ |  \__ \ ")
-   print(" \____\___/|_|_| |_| |_| |_|\__,_|_| |_|\__\___|_|  |___/ ")
-   print("\033[0m")
-    answer = input('Will you NODEPAY Airdrop? (Y/N): ')
-    if answer.lower() != 'y':
-        print('Aborting installation.')
-        exit(1)
+  print("\033[0;31m")
+  print("  ____      _         _   _             _                 ")  
+  print(" / ___|___ (_)_ __   | | | |_   _ _ __ | |_ ___ _ __ ___  ")
+  print("| |   / _ \| | '_ \  | |_| | | | | '_ \| __/ _ \ '__/ __| ") 
+  print("| |__| (_) | | | | | |  _  | |_| | | | | ||  __/ |  \__ \ ")
+  print(" \____\___/|_|_| |_| |_| |_|\__,_|_| |_|\__\___|_|  |___/ ")
+  print("\033[0m")
+  answer = input('Will you NODEPAY Airdrop? (Y/N): ')
+  if answer.lower() != 'y':
+      print('Aborting installation.')
+      exit(1)
 
 # Constants
 PING_INTERVAL = 10  # seconds
